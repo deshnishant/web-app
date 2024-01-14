@@ -1,0 +1,43 @@
+<div class="bootstrap-wrapper">
+    <div class="row mt">
+    <div class="container text-center mt">
+
+        <div class="container">
+            <img image="img-fluid" style="width: 150px; height: 200px;" src="/assets/login.jpg" alt="">
+        </div> 
+    
+        <div class="container mt">
+            <h1><b>Welcome to Login Page!!!!!</b></h1>
+            
+    </div>
+     <form action="">
+        <div class="col-sm">
+            <mat-form-field class="full-width" appearance="outline"> 
+                <mat-label>Username</mat-label>
+                <input required type="text" matInput />
+            </mat-form-field>
+        </div>
+    
+    <mat-form-field class="full-width" appearance="outline"> 
+        <mat-label>Password</mat-label>
+        <input required minlength="7" type="password" matInput />
+    </mat-form-field>
+    
+    <div class="container text-center" >
+        <button mat-raised-button color="primary">
+            Login
+        </button> 
+    
+        <button style="margin-left: 10px" mat-raised-button color="accent"><a >
+            Reset</a>
+            </button>
+    <div class="container mt">
+        <button><a routerLink="/forgot-password">Forgot Password</a></button>
+        <button style="margin-left: 10px;"><a routerLink="/forgot-username">Forgot Username</a></button>
+    </div>
+    </div>
+        
+     </form>
+    </div>
+</div>
+</div>

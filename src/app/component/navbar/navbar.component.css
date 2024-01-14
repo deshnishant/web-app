@@ -1,0 +1,13 @@
+.example-spacer{
+    flex: 0.95 1 auto;
+}
+
+.md{
+    position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  background-color: white;
+}
